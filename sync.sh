@@ -15,11 +15,15 @@ if ! [ -f ~/.config/hub ]; then
     exit 1
 fi
 
+# GitHub PR template
 template="../../PULL_REQUEST_TEMPLATE.md"
-
 test -d .github || mkdir -p .github
 cp "$template" .github/PULL_REQUEST_TEMPLATE.md
 git add .github/PULL_REQUEST_TEMPLATE.md
+
+# CONTRIBUTING.md (DCO instructions)
+cp ../../CONTRIBUTING.md CONTRIBUTING.md
+git add CONTRIBUTING.md
 
 if git diff-index --quiet HEAD --; then
     # no changes
@@ -40,6 +44,6 @@ fi
 newbranch=update-pr-template-$RANDOM
 git checkout -b "$newbranch"
 
-git commit -F ../../commit_msg .github/PULL_REQUEST_TEMPLATE.md
+git commit -F ../../commit_msg .github/PULL_REQUEST_TEMPLATE.md CONTRIBUTING.md
 git push "$(github_user)" "$newbranch"
 hub pull-request -F ../../commit_msg

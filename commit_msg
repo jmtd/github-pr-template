@@ -1,7 +1,7 @@
 Update GitHub PR template
 
-This adds or updates the Github PR template for this repository to reflect
-the version in the master repository:
+This adds or updates the Github PR template or CONTRIBUTING.md file for this
+repository to reflect the versions in the master repository:
 
     https://github.com/jboss-container-images/github-pr-template
 
