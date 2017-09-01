@@ -15,11 +15,19 @@ if ! [ -f ~/.config/hub ]; then
     exit 1
 fi
 
-# GitHub PR template
+reponame="$(basename $(pwd))"
+is_openshift_image()
+{
+    echo "$reponame" | grep -q openshift || test "$reponame" = "cct_module"
+}
+
+# GitHub PR template (OpenShift images only)
 template="../../PULL_REQUEST_TEMPLATE.md"
-test -d .github || mkdir -p .github
-cp "$template" .github/PULL_REQUEST_TEMPLATE.md
-git add .github/PULL_REQUEST_TEMPLATE.md
+if is_openshift_image; then
+    test -d .github || mkdir -p .github
+    cp "$template" .github/PULL_REQUEST_TEMPLATE.md
+    git add .github/PULL_REQUEST_TEMPLATE.md
+fi
 
 # CONTRIBUTING.md (DCO instructions)
 cp ../../CONTRIBUTING.md CONTRIBUTING.md
@@ -44,6 +52,11 @@ fi
 newbranch=update-pr-template-$RANDOM
 git checkout -b "$newbranch"
 
-git commit -F ../../commit_msg .github/PULL_REQUEST_TEMPLATE.md CONTRIBUTING.md
+files="CONTRIBUTING.md"
+if is_openshift_image; then
+    files="$files .github/PULL_REQUEST_TEMPLATE.md"
+fi
+git commit -F ../../commit_msg $files
+
 git push "$(github_user)" "$newbranch"
 hub pull-request -F ../../commit_msg
