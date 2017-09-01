@@ -18,6 +18,10 @@ it as an alias for `git`.
 
 ## Usage
 
+WARNING! These scripts open up Pull Requests for all submodules, that is
+currently 27 other repositories. Please make sure that's exactly what you
+want to do before running them!
+
 ### Getting started
 
 To initialise the git submodules and set up the GitHub forks, run the `init.sh`
