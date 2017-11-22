@@ -106,3 +106,6 @@
 	path = images/cct_module
 	url = git@github.com:jboss-openshift/cct_module.git
 	branch = master
+[submodule "images/jboss-amq-7-image.git"]
+	path = images/jboss-amq-7-image.git
+	url = git@github.com:jboss-container-images/jboss-amq-7-image.git
