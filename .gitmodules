@@ -1,116 +1,212 @@
 [submodule "images/jboss-amq-6-image.git"]
-	path = images/jboss-amq-6-image.git
+	path = images/jboss-amq-6-image_amq63-dev
 	url = git@github.com:jboss-container-images/jboss-amq-6-image.git
 	branch = amq63-dev
 [submodule "images/jboss-amq-6-openshift-image.git"]
-	path = images/jboss-amq-6-openshift-image.git
+	path = images/jboss-amq-6-openshift-image_amq63-dev
 	url = git@github.com:jboss-container-images/jboss-amq-6-openshift-image.git
 	branch = amq63-dev
 [submodule "images/jboss-base-image.git"]
-	path = images/jboss-base-image.git
+	path = images/jboss-base-image_base-rhel7-dev
 	url = git@github.com:jboss-container-images/jboss-base-image.git
 	branch = base-rhel7-dev
 [submodule "images/jboss-bpmsuite-7-image.git"]
-	path = images/jboss-bpmsuite-7-image.git
+	path = images/jboss-bpmsuite-7-image_bpmsuite70-dev
 	url = git@github.com:jboss-container-images/jboss-bpmsuite-7-image.git
 	branch = bpmsuite70-dev
 [submodule "images/jboss-datagrid-6-client-openshift-image.git"]
-	path = images/jboss-datagrid-6-client-openshift-image.git
+	path = images/jboss-datagrid-6-client-openshift-image_datagrid65-client-dev
 	url = git@github.com:jboss-container-images/jboss-datagrid-6-client-openshift-image.git
 	branch = datagrid65-client-dev
 [submodule "images/jboss-datagrid-6-image.git"]
-	path = images/jboss-datagrid-6-image.git
+	path = images/jboss-datagrid-6-image_datagrid65-dev
 	url = git@github.com:jboss-container-images/jboss-datagrid-6-image.git
 	branch = datagrid65-dev
 [submodule "images/jboss-datagrid-6-openshift-image.git"]
-	path = images/jboss-datagrid-6-openshift-image.git
+	path = images/jboss-datagrid-6-openshift-image_datagrid65-dev
 	url = git@github.com:jboss-container-images/jboss-datagrid-6-openshift-image.git
 	branch = datagrid65-dev
 [submodule "images/jboss-datagrid-7-client-openshift-image.git"]
-	path = images/jboss-datagrid-7-client-openshift-image.git
+	path = images/jboss-datagrid-7-client-openshift-image_datagrid71-client-dev
 	url = git@github.com:jboss-container-images/jboss-datagrid-7-client-openshift-image.git
 	branch = datagrid71-client-dev
 [submodule "images/jboss-datagrid-7-image.git"]
-	path = images/jboss-datagrid-7-image.git
+	path = images/jboss-datagrid-7-image_datagrid71-dev
 	url = git@github.com:jboss-container-images/jboss-datagrid-7-image.git
 	branch = datagrid71-dev
 [submodule "images/jboss-datagrid-7-openshift-image.git"]
-	path = images/jboss-datagrid-7-openshift-image.git
+	path = images/jboss-datagrid-7-openshift-image_datagrid71-dev
 	url = git@github.com:jboss-container-images/jboss-datagrid-7-openshift-image.git
 	branch = datagrid71-dev
 [submodule "images/jboss-datavirt-6-driver-openshift-image.git"]
-	path = images/jboss-datavirt-6-driver-openshift-image.git
+	path = images/jboss-datavirt-6-driver-openshift-image_datavirt63-driver-dev
 	url = git@github.com:jboss-container-images/jboss-datavirt-6-driver-openshift-image.git
 	branch = datavirt63-driver-dev
 [submodule "images/jboss-datavirt-6-image.git"]
-	path = images/jboss-datavirt-6-image.git
+	path = images/jboss-datavirt-6-image_datavirt63-dev
 	url = git@github.com:jboss-container-images/jboss-datavirt-6-image.git
 	branch = datavirt63-dev
 [submodule "images/jboss-datavirt-6-openshift-image.git"]
-	path = images/jboss-datavirt-6-openshift-image.git
+	path = images/jboss-datavirt-6-openshift-image_datavirt63-dev
 	url = git@github.com:jboss-container-images/jboss-datavirt-6-openshift-image.git
 	branch = datavirt63-dev
 [submodule "images/jboss-decisionserver-6-openshift-image.git"]
-	path = images/jboss-decisionserver-6-openshift-image.git
+	path = images/jboss-decisionserver-6-openshift-image_decisionserver64-dev
 	url = git@github.com:jboss-container-images/jboss-decisionserver-6-openshift-image.git
 	branch = decisionserver64-dev
 [submodule "images/jboss-eap-6-image.git"]
-	path = images/jboss-eap-6-image.git
+	path = images/jboss-eap-6-image_eap64-dev
 	url = git@github.com:jboss-container-images/jboss-eap-6-image.git
 	branch = eap64-dev
 [submodule "images/jboss-eap-6-openshift-image.git"]
-	path = images/jboss-eap-6-openshift-image.git
+	path = images/jboss-eap-6-openshift-image_eap64-dev
 	url = git@github.com:jboss-container-images/jboss-eap-6-openshift-image.git
 	branch = eap64-dev
 [submodule "images/jboss-eap-7-image.git"]
-	path = images/jboss-eap-7-image.git
+	path = images/jboss-eap-7-image_eap71-dev
 	url = git@github.com:jboss-container-images/jboss-eap-7-image.git
 	branch = eap71-dev
 [submodule "images/jboss-eap-7-openshift-image.git"]
-	path = images/jboss-eap-7-openshift-image.git
+	path = images/jboss-eap-7-openshift-image_eap71-dev
 	url = git@github.com:jboss-container-images/jboss-eap-7-openshift-image.git
 	branch = eap71-dev
 [submodule "images/jboss-kieserver-6-openshift-image.git"]
-	path = images/jboss-kieserver-6-openshift-image.git
+	path = images/jboss-kieserver-6-openshift-image_kieserver64-dev
 	url = git@github.com:jboss-container-images/jboss-kieserver-6-openshift-image.git
 	branch = kieserver64-dev
 [submodule "images/jboss-openjdk-image.git"]
-	path = images/jboss-openjdk-image.git
+	path = images/jboss-openjdk-image_openjdk18-rhel7-dev
 	url = git@github.com:jboss-container-images/jboss-openjdk-image.git
 	branch = openjdk18-rhel7-dev
 [submodule "images/jboss-processserver-6-openshift-image.git"]
-	path = images/jboss-processserver-6-openshift-image.git
+	path = images/jboss-processserver-6-openshift-image_processserver64-dev
 	url = git@github.com:jboss-container-images/jboss-processserver-6-openshift-image.git
 	branch = processserver63-dev
 [submodule "images/jboss-webserver-3-image.git"]
-	path = images/jboss-webserver-3-image.git
+	path = images/jboss-webserver-3-image_webserver31-dev
 	url = git@github.com:jboss-container-images/jboss-webserver-3-image.git
 	branch = webserver31-dev
 [submodule "images/jboss-webserver-3-openshift-image.git"]
-	path = images/jboss-webserver-3-openshift-image.git
+	path = images/jboss-webserver-3-openshift-image_webserver31-dev
 	url = git@github.com:jboss-container-images/jboss-webserver-3-openshift-image.git
 	branch = webserver31-dev
 [submodule "images/redhat-openjdk-18-openshift-image.git"]
-	path = images/redhat-openjdk-18-openshift-image.git
+	path = images/redhat-openjdk-18-openshift-image_openjdk18-dev
 	url = git@github.com:jboss-container-images/redhat-openjdk-18-openshift-image.git
 	branch = openjdk18-dev
 [submodule "images/redhat-sso-7-image.git"]
-	path = images/redhat-sso-7-image.git
+	path = images/redhat-sso-7-image_sso71-dev
 	url = git@github.com:jboss-container-images/redhat-sso-7-image.git
 	branch = sso71-dev
 [submodule "images/redhat-sso-7-openshift-image.git"]
-	path = images/redhat-sso-7-openshift-image.git
+	path = images/redhat-sso-7-openshift-image_sso71-dev
 	url = git@github.com:jboss-container-images/redhat-sso-7-openshift-image.git
 	branch = sso71-dev
 [submodule "images/jboss-amq-7-image.git"]
-	path = images/jboss-amq-7-image.git
+	path = images/jboss-amq-7-image_amq70-dev
 	url = git@github.com:jboss-container-images/jboss-amq-7-image.git
         branch = amq70-dev
 [submodule "images/jboss-bpmsuite-7-openshift-image"]
-	path = images/jboss-bpmsuite-7-openshift-image
+	path = images/jboss-bpmsuite-7-openshift-image_bpmsuite70-dev
 	url = git@github.com:jboss-container-images/jboss-bpmsuite-7-openshift-image.git
         branch = bpmsuite70-dev
 [submodule "images/jboss-dataservices-image"]
-	path = images/jboss-dataservices-image
+	path = images/jboss-dataservices-image_dataservices-dev
 	url = git@github.com:jboss-container-images/jboss-dataservices-image.git
         branch = dataservices-dev
+[submodule "images/jboss-amq-6-image_amq62-dev"]
+	path = images/jboss-amq-6-image_amq62-dev
+	url = git@github.com:jboss-container-images/jboss-amq-6-image.git
+	branch = amq62-dev
+[submodule "images/jboss-amq-6-openshift-image_amq62-dev"]
+	path = images/jboss-amq-6-openshift-image_amq62-dev
+	url = git@github.com:jboss-container-images/jboss-amq-6-openshift-image.git
+	branch = amq62-dev
+[submodule "images/jboss-amq-7-image_amq71-dev"]
+	path = images/jboss-amq-7-image_amq71-dev
+	url = git@github.com:jboss-container-images/jboss-amq-7-image.git
+	branch = amq71-dev
+[submodule "images/jboss-datagrid-7-image_datagrid72-dev"]
+	path = images/jboss-datagrid-7-image_datagrid72-dev
+	url = git@github.com:jboss-container-images/jboss-datagrid-7-image.git
+	branch = datagrid72-dev
+[submodule "images/jboss-datagrid-7-openshift-image_datagrid72-dev"]
+	path = images/jboss-datagrid-7-openshift-image_datagrid72-dev
+	url = git@github.com:jboss-container-images/jboss-datagrid-7-openshift-image.git
+	branch = datagrid72-dev
+[submodule "images/jboss-datavirt-6-driver-openshift-image_datavirt64-driver-dev"]
+	path = images/jboss-datavirt-6-driver-openshift-image_datavirt64-driver-dev
+	url = git@github.com:jboss-container-images/jboss-datavirt-6-driver-openshift-image.git
+	branch = datavirt64-driver-dev
+[submodule "images/jboss-datavirt-6-image_datavirt64-dev"]
+	path = images/jboss-datavirt-6-image_datavirt64-dev
+	url = git@github.com:jboss-container-images/jboss-datavirt-6-image.git
+	branch = datavirt64-dev
+[submodule "images/jboss-datavirt-6-openshift-image_datavirt64-dev"]
+	path = images/jboss-datavirt-6-openshift-image_datavirt64-dev
+	url = git@github.com:jboss-container-images/jboss-datavirt-6-openshift-image.git
+	branch = datavirt64-dev
+[submodule "images/jboss-decisionserver-6-openshift-image_decisionserver63-dev"]
+	path = images/jboss-decisionserver-6-openshift-image_decisionserver63-dev
+	url = git@github.com:jboss-container-images/jboss-decisionserver-6-openshift-image.git
+	branch = decisionserver63-dev
+[submodule "images/jboss-decisionserver-6-openshift-image_decisionserver64-eap7-dev"]
+	path = images/jboss-decisionserver-6-openshift-image_decisionserver64-eap7-dev
+	url = git@github.com:jboss-container-images/jboss-decisionserver-6-openshift-image.git
+	branch = decisionserver64-eap7-dev
+[submodule "images/jboss-eap-7-image_eap70-dev"]
+	path = images/jboss-eap-7-image_eap70-dev
+	url = git@github.com:jboss-container-images/jboss-eap-7-image.git
+	branch = eap70-dev
+[submodule "images/jboss-eap-7-image_eap72-dev"]
+	path = images/jboss-eap-7-image_eap72-dev
+	url = git@github.com:jboss-container-images/jboss-eap-7-image.git
+	branch = eap72-dev
+[submodule "images/jboss-eap-7-openshift-image_eap70-dev"]
+	path = images/jboss-eap-7-openshift-image_eap70-dev
+	url = git@github.com:jboss-container-images/jboss-eap-7-openshift-image.git
+	branch = eap70-dev
+[submodule "images/jboss-eap-7-openshift-image_eap72-dev"]
+	path = images/jboss-eap-7-openshift-image_eap72-dev
+	url = git@github.com:jboss-container-images/jboss-eap-7-openshift-image.git
+	branch = eap72-dev
+[submodule "images/jboss-kieserver-6-openshift-image_kieserver63-dev"]
+	path = images/jboss-kieserver-6-openshift-image_kieserver63-dev
+	url = git@github.com:jboss-container-images/jboss-kieserver-6-openshift-image.git
+	branch = kieserver63-dev
+[submodule "images/jboss-kieserver-6-openshift-image_kieserver64-eap7-dev"]
+	path = images/jboss-kieserver-6-openshift-image_kieserver64-eap7-dev
+	url = git@github.com:jboss-container-images/jboss-kieserver-6-openshift-image.git
+	branch = kieserver64-eap7-dev
+[submodule "images/jboss-processserver-6-openshift-image_processserver63-dev"]
+	path = images/jboss-processserver-6-openshift-image_processserver63-dev
+	url = git@github.com:jboss-container-images/jboss-processserver-6-openshift-image.git
+	branch = processserver63-dev
+[submodule "images/jboss-processserver-6-openshift-image_processserver64-eap7-dev"]
+	path = images/jboss-processserver-6-openshift-image_processserver64-eap7-dev
+	url = git@github.com:jboss-container-images/jboss-processserver-6-openshift-image.git
+	branch = processserver64-eap7-dev
+[submodule "images/jboss-webserver-3-image_webserver30-dev"]
+	path = images/jboss-webserver-3-image_webserver30-dev
+	url = git@github.com:jboss-container-images/jboss-webserver-3-image.git
+	branch = webserver30-dev
+[submodule "images/jboss-webserver-3-openshift-image_webserver30-dev"]
+	path = images/jboss-webserver-3-openshift-image_webserver30-dev
+	url = git@github.com:jboss-container-images/jboss-webserver-3-openshift-image.git
+	branch = webserver30-dev
+[submodule "images/redhat-sso-7-image_sso70-dev"]
+	path = images/redhat-sso-7-image_sso70-dev
+	url = git@github.com:jboss-container-images/redhat-sso-7-image.git
+	branch = sso70-dev
+[submodule "images/redhat-sso-7-image_sso72-dev"]
+	path = images/redhat-sso-7-image_sso72-dev
+	url = git@github.com:jboss-container-images/redhat-sso-7-image.git
+	branch = sso72-dev
+[submodule "images/redhat-sso-7-openshift-image_sso70-dev"]
+	path = images/redhat-sso-7-openshift-image_sso70-dev
+	url = git@github.com:jboss-container-images/redhat-sso-7-openshift-image.git
+	branch = sso70-dev
+[submodule "images/redhat-sso-7-openshift-image_sso72-dev"]
+	path = images/redhat-sso-7-openshift-image_sso72-dev
+	url = git@github.com:jboss-container-images/redhat-sso-7-openshift-image.git
+	branch = sso72-dev
