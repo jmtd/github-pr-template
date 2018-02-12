@@ -109,3 +109,9 @@
 [submodule "images/jboss-amq-7-image.git"]
 	path = images/jboss-amq-7-image.git
 	url = git@github.com:jboss-container-images/jboss-amq-7-image.git
+[submodule "images/jboss-bpmsuite-7-openshift-image"]
+	path = images/jboss-bpmsuite-7-openshift-image
+	url = git@github.com:jboss-container-images/jboss-bpmsuite-7-openshift-image.git
+[submodule "images/jboss-dataservices-image"]
+	path = images/jboss-dataservices-image
+	url = git@github.com:jboss-container-images/jboss-dataservices-image.git
