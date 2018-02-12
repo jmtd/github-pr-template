@@ -18,7 +18,7 @@ fi
 reponame="$(basename $(pwd))"
 is_openshift_image()
 {
-    echo "$reponame" | grep -q openshift || test "$reponame" = "cct_module"
+    echo "$reponame" | grep -q openshift
 }
 
 if is_openshift_image; then
