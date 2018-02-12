@@ -1,3 +1,18 @@
+----
+**flat_test**:
+
+this is an experimental branch to flatten out multiple images from repos
+such that there is one submodule PER image. Thus, 
+
+    jboss-eap-7-image
+        =>
+            jboss-eap-7-image_eap70-dev
+            jboss-eap-7-image_eap71-dev
+            jboss-eap-7-image_eap72-dev
+
+----
+
+
 # xPaas Pull Request template
 
 This is a Pull Request Template for the [xPaas image
